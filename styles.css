@@ -74,6 +74,9 @@ input, textarea {
     border-radius: 4px;
     background: rgb(238, 249, 253);
 }
+.hidden-icon {
+    visibility: hidden;
+}
 .input-icons i {
     position: absolute;
 }
@@ -107,6 +110,9 @@ input, textarea {
 #message {
     min-height: 110px;
     resize: none
+}
+.message-txt {
+    color: #292929;
 }
 .input-form, 
 #name, 
