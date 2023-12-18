@@ -200,7 +200,9 @@ input, textarea {
     .message {
         font-size: 1.2rem;
     }
-
+    .col-1 {
+        flex-direction: column;
+    }
     .icon {
         font-size: 1rem;
     }
