@@ -57,7 +57,7 @@ i {
 }
 .vertical-line {
     align-items: center;
-    height: 300px;
+    height: 400px;
     width: 1px;
     background-color: rgb(17, 119, 154);
     margin: 20px;
@@ -67,6 +67,15 @@ i {
     font-weight: 700;
     padding-top: 20px;
     color: rgb(17, 119, 154);
+}
+a, 
+a:link, 
+a:hover, 
+a:focus {
+    text-decoration: none;
+    color: #929191;
+    cursor: pointer;
+
 }
 input,
 textarea,
@@ -178,9 +187,7 @@ input, textarea {
         padding: 10px;
     }
     .vertical-line {
-        height: 1px;
-        width: auto;
-        margin: 20px 0;
+        display: none;
     }
     .message {
         font-size: 1.5rem;
